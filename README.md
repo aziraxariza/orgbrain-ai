@@ -105,13 +105,6 @@ frontend/
 
 docker-compose.yml     postgres + redis + backend + frontend, one command up
 ```
-
-## Configuring the LLM (optional)
-
-Explainability works out of the box with a deterministic template. To get real
-natural-language explanations, set `GEMINI_API_KEY` (primary) and/or
-`GROQ_API_KEY` (fallback) in `backend/.env`.
-
 ## Next milestone
 
 Writes (task/project updates), audit logging, Redis-backed simulation caching,
