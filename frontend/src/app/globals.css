@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+* {
+  border-color: theme("colors.graphite.700");
+}
+
+body {
+  background-image: radial-gradient(circle at 15% 0%, rgba(255, 133, 82, 0.06), transparent 45%),
+    radial-gradient(circle at 85% 10%, rgba(79, 209, 197, 0.05), transparent 40%);
+  background-attachment: fixed;
+}
+
+::selection {
+  background: rgba(255, 133, 82, 0.25);
+}
+
+/* Visible keyboard focus everywhere, no exceptions */
+:focus-visible {
+  outline: 2px solid theme("colors.signal.DEFAULT");
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+.hairline {
+  border-color: theme("colors.graphite.700");
+}
+
+.tabular {
+  font-variant-numeric: tabular-nums;
+}
