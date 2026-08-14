@@ -1,4 +1,4 @@
-# OrgBrain — Execution Intelligence Platform 
+# OrgBrain — Execution Intelligence Platform  
 
 AI-powered organizational execution intelligence: deterministic simulation and risk
 detection first, LLM explains the results second (never computes them).
