@@ -5,10 +5,6 @@ detection first, LLM explains the results second (never computes them).
 
 ## Status: Milestone 2 — Backend + Frontend, both verified end-to-end
 
-This is being built incrementally against `01_Vision_Document`, `02_PRD`,
-`03_Architecture_Decision_Records`, and `04_SRS_IEEE29148` — see **Progress**
-below for exactly what's implemented vs. what's next.
-
 ## Quick start
 
 ```bash
